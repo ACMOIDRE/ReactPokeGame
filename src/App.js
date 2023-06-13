@@ -12,6 +12,8 @@ const App = () => {
     const [blastoiseHP, setBlastoisedHP ] = useState(120)
     const [charizardHP, setCharizardHP ] = useState(100)
 
+    
+    // Functions
     const blastoiseAttack = ()=>
     {
         setCharizardHP(charizardHP-30)
@@ -38,7 +40,7 @@ const App = () => {
   return (
     
     <div className='container'>
-
+        
         <Pokemon name = "Blastoise" img={Blastoise} hp={blastoiseHP} attack={blastoiseAttack}/>
         <Pokemon name = "Charizard" img={Charizard} hp= {charizardHP} attack={charizardAttack} /> 
 
