@@ -1,0 +1,8 @@
+.container {
+    display: flex;
+    height: 70vh;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 100px;
+    font-family: sans-serif;
+}
